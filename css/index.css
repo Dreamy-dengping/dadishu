@@ -1,0 +1,109 @@
+.container{
+    width: 320px;
+    height: 480px;
+    background: url(../img/game_bg.jpg) no-repeat 0 0;
+    margin: 50px auto;
+    position: relative;
+}
+.container>h1{
+    color: white;
+    margin-left: 60px;
+    font-size: 32px;
+    margin-top: -5px;
+}
+.container>.progress{
+    width: 180px;
+    height: 16px;
+    background: url(../img/progress.png) no-repeat 0 0;
+    position: absolute;
+    top: 65px;
+    left: 63px;
+}
+.container>.start{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(#e55c3d,#c50000);
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    bottom: 130px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px ;
+}
+.container>.rule{
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    
+}
+.container .rule-item{
+width: 100%;
+height: 100%;
+background-color: #000;
+opacity: .5;
+color: #fff;
+text-align: center;
+padding-top: 40px;
+box-sizing: border-box;
+display: none;
+}
+.container .rule-item p{
+
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.container .rule-item a{
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+.container .gameover{
+    width: 100%;
+height: 100%;
+background-color: #000;
+opacity: .5;
+color: #fff;
+text-align: center;
+padding-top: 180px;
+box-sizing: border-box;
+position: absolute;
+left: 0;
+top: 0;
+display: none;
+z-index: 1;
+}
+.container .gameover h1{
+    font-size: 40px;
+    font-weight: bold;
+color: #ff0000;
+    text-shadow: 3px 3px 0px white;
+    
+}
+.container .gameover button{
+    width: 150px;
+    background: linear-gradient(#079dfa,#0893fd);
+    border-radius: 20px;
+    border: none;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+    
+}
+a:hove{
+    cursor: pointer;
+}
